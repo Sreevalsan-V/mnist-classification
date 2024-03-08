@@ -35,7 +35,7 @@ Compile and fit the model and then predict
 
 ## PROGRAM
 ```py
-#Program developed by : DREEVALSAN V
+#Program developed by : SREEVALSAN V
 #Reference no : 212223240158
 
 import numpy as np
@@ -78,7 +78,7 @@ y_train_onehot[500]
 X_train_scaled = X_train_scaled.reshape(-1,28,28,1)
 X_test_scaled = X_test_scaled.reshape(-1,28,28,1)
 
-model = keras.Sequential()
+
 model = keras.Sequential()
 model.add (layers. Input (shape=(28,28,1)))
 model.add (layers.Conv2D (filters=32, kernel_size=(3,3), activation='relu')) 
